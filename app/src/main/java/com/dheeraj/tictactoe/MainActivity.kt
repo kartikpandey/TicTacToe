@@ -53,8 +53,8 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
             val (player1, player2) = shrdPref!!.retrieveProgress()
             this.player1 = player1
             this.player2 = player2
-            player1.name = name_p1.text.toString()
-            player2.name = name_p2.text.toString()
+            name_p1.text = player1.name
+            name_p2.text = player2.name
 
             score_p1!!.text = player1.score.toString()
             score_p2!!.text = player2.score.toString()
