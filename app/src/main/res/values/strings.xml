@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">Ok</string>
+    <string name="play">Play</string>
+    <string name="restore">Restore</string>
+    <string name="new_game">Start New Game</string>
+</resources>
